@@ -10,6 +10,11 @@
   padding: 10px;
   margin-top: 20px;
 }
+.container-3 div {
+  border: 1px #443434 solid;
+  padding: 10px;
+  margin-top: 20px;
+}
 
 * {
   box-sizing: border-box;
@@ -40,11 +45,37 @@
 
 .box-4 {
   order: 2;
+  color: #7e2b2b;
 }
 
 .box-5 {
   order: 1;
 }
 .box-6 {
+  order: 3;
+}
+
+/* align the flex boxes */
+
+.container-3 {
+  display: flex;
+  align-items: center; /**put the box in the center allso the content of it in the center */
+  /*align-items: flex-end; */ /**put the box in the bottom allso the contetnt of it in the bootom */
+  /* align-items: flex-start;  */ /**put the box in the top allso the contetnt of it in the top */
+  /* align-content: stretch;  */ /** that is from default of align items */
+}
+
+.box-7 {
+  flex: 2;
+  order: 2;
+  color: #7e2b2b;
+}
+
+.box-8 {
+  flex: 1;
+  order: 1;
+}
+.box-9 {
+  flex: 1;
   order: 3;
 }
