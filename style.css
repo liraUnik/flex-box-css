@@ -1,0 +1,50 @@
+/* general style */
+
+.container-1 div {
+  border: 1px #cccccc solid; /** style with some border araund it */
+  padding: 10px; /**give more space in all derection */
+}
+
+.container-2 div {
+  border: 1px #837474 solid;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* display flex  and sizeing the boxes*/
+
+.container-1 {
+  /* it is grabin as element from html */
+  display: flex; /**which it make childern element go flex or go horizontly side by side */
+}
+
+.box-1 {
+  flex: 2;
+}
+.box-2 {
+  flex: 1;
+}
+.box-3 {
+  flex: 1;
+}
+
+/* order flex box */
+
+.container-2 {
+  display: flex;
+}
+
+.box-4 {
+  order: 2;
+}
+
+.box-5 {
+  order: 1;
+}
+.box-6 {
+  order: 3;
+}
