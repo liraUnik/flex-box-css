@@ -16,7 +16,8 @@
   margin-top: 20px;
 }
 .container-4 div,
-.container-5 div {
+.container-5 div,
+.container-6 div {
   border: 1px #3b531f solid;
   padding: 10px;
   margin-top: 20px;
@@ -101,4 +102,21 @@
 
 .container-5-box {
   width: 30%;
+}
+
+/* make responsive in small screeen */
+
+.container-6 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 1%;
+  align-items: center;
+}
+
+.container-6-box {
+  flex-basis: 5%;
+  flex-wrap: wrap;
+  height: 23%;
+  flex-shrink: inherit;
 }
